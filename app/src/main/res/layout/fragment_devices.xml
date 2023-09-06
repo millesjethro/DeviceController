@@ -19,6 +19,8 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+
+
             <View
                 android:id="@+id/view"
                 android:layout_width="148dp"
@@ -42,15 +44,70 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
             <View
-                android:id="@+id/view2"
-                android:layout_width="350dp"
-                android:layout_height="300dp"
-                android:layout_marginTop="224dp"
+                android:id="@+id/view3"
+                android:layout_width="148dp"
+                android:layout_height="187dp"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/transparent_view_bg"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintHorizontal_bias="0.183"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+                app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="148dp"
+                android:layout_height="187dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/transparent_view_bg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.183"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="148dp"
+                android:layout_height="187dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/transparent_view_bg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.183"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+            <View
+                android:id="@+id/view9"
+                android:layout_width="148dp"
+                android:layout_height="187dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/transparent_view_bg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.835"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view7" />
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="148dp"
+                android:layout_height="187dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/transparent_view_bg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.835"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="148dp"
+                android:layout_height="187dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/transparent_view_bg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.835"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -67,7 +124,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Switch
-                android:id="@+id/switch1"
+                android:id="@+id/BulbNumber1"
                 android:layout_width="80dp"
                 android:layout_height="30dp"
                 android:checked="false"
@@ -83,7 +140,87 @@
                 tools:ignore="UseSwitchCompatOrMaterialXml" />
 
             <Switch
-                android:id="@+id/switch2"
+                android:id="@+id/BulbNumber7"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:checked="false"
+                android:switchMinWidth="80dp"
+                android:thumbTint="@color/white"
+                android:track="@drawable/track_switch"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/view8"
+                app:layout_constraintHorizontal_bias="0.485"
+                app:layout_constraintStart_toStartOf="@+id/view8"
+                app:layout_constraintTop_toTopOf="@+id/view8"
+                app:layout_constraintVertical_bias="0.898"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/BulbNumber8"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:checked="false"
+                android:switchMinWidth="80dp"
+                android:thumbTint="@color/white"
+                android:track="@drawable/track_switch"
+                app:layout_constraintBottom_toBottomOf="@+id/view9"
+                app:layout_constraintEnd_toEndOf="@+id/view9"
+                app:layout_constraintHorizontal_bias="0.485"
+                app:layout_constraintStart_toStartOf="@+id/view9"
+                app:layout_constraintTop_toTopOf="@+id/view9"
+                app:layout_constraintVertical_bias="0.898"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/BulbNumber3"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:checked="false"
+                android:switchMinWidth="80dp"
+                android:thumbTint="@color/white"
+                android:track="@drawable/track_switch"
+                app:layout_constraintBottom_toBottomOf="@+id/view3"
+                app:layout_constraintEnd_toEndOf="@+id/view3"
+                app:layout_constraintHorizontal_bias="0.485"
+                app:layout_constraintStart_toStartOf="@+id/view3"
+                app:layout_constraintTop_toTopOf="@+id/view3"
+                app:layout_constraintVertical_bias="0.898"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/BulbNumber6"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:checked="false"
+                android:switchMinWidth="80dp"
+                android:thumbTint="@color/white"
+                android:track="@drawable/track_switch"
+                app:layout_constraintBottom_toBottomOf="@+id/view7"
+                app:layout_constraintEnd_toEndOf="@+id/view7"
+                app:layout_constraintHorizontal_bias="0.485"
+                app:layout_constraintStart_toStartOf="@+id/view7"
+                app:layout_constraintTop_toTopOf="@+id/view7"
+                app:layout_constraintVertical_bias="0.898"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/BulbNumber5"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:checked="false"
+                android:switchMinWidth="80dp"
+                android:thumbTint="@color/white"
+                android:track="@drawable/track_switch"
+                app:layout_constraintBottom_toBottomOf="@+id/view2"
+                app:layout_constraintEnd_toEndOf="@+id/view2"
+                app:layout_constraintHorizontal_bias="0.485"
+                app:layout_constraintStart_toStartOf="@+id/view2"
+                app:layout_constraintTop_toTopOf="@+id/view2"
+                app:layout_constraintVertical_bias="0.898"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/BulbNumber2"
                 android:layout_width="80dp"
                 android:layout_height="30dp"
                 android:checked="false"
@@ -102,7 +239,7 @@
                 android:id="@+id/bulb1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintBottom_toTopOf="@+id/switch1"
+                app:layout_constraintBottom_toTopOf="@+id/BulbNumber1"
                 app:layout_constraintEnd_toEndOf="@+id/view1"
                 app:layout_constraintStart_toStartOf="@+id/view1"
                 app:layout_constraintTop_toTopOf="@+id/view1"
@@ -110,10 +247,21 @@
                 app:lottie_progress="0.1" />
 
             <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/bulb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/BulbNumber3"
+                app:layout_constraintEnd_toEndOf="@+id/view3"
+                app:layout_constraintStart_toStartOf="@+id/view3"
+                app:layout_constraintTop_toTopOf="@+id/view3"
+                app:lottie_fileName="bulb.json"
+                app:lottie_progress="0.1" />
+
+            <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/bulb2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintBottom_toTopOf="@+id/switch2"
+                app:layout_constraintBottom_toTopOf="@+id/BulbNumber2"
                 app:layout_constraintEnd_toEndOf="@+id/view"
                 app:layout_constraintStart_toStartOf="@+id/view"
                 app:layout_constraintTop_toTopOf="@+id/view"
@@ -121,39 +269,77 @@
                 app:lottie_progress="0.1" />
 
             <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/DayAndNight"
-                android:layout_width="257dp"
-                android:layout_height="209dp"
-                app:layout_constraintBottom_toTopOf="@+id/textView6"
-                app:layout_constraintEnd_toEndOf="@+id/view2"
-                app:layout_constraintStart_toStartOf="@+id/view2"
-                app:layout_constraintTop_toBottomOf="@+id/textView5"
-                app:lottie_fileName="DayANight.json"
-                app:lottie_progress="0"
-                app:lottie_autoPlay="true"/>
-
-            <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/bulb4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:text="LIGHT SENSOR"
-                android:textColor="@color/black"
-                android:textSize="24dp"
-                app:layout_constraintEnd_toEndOf="@+id/view2"
-                app:layout_constraintHorizontal_bias="0.494"
-                app:layout_constraintStart_toStartOf="@+id/view2"
-                app:layout_constraintTop_toTopOf="@+id/view2" />
+                app:layout_constraintBottom_toTopOf="@+id/BulbNumber4"
+                app:layout_constraintEnd_toEndOf="@+id/view4"
+                app:layout_constraintStart_toStartOf="@+id/view4"
+                app:layout_constraintTop_toTopOf="@+id/view4"
+                app:lottie_fileName="bulb.json"
+                app:lottie_progress="0.1" />
 
-            <TextView
-                android:id="@+id/textView6"
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/bulb6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:text="MEASUREMENT: 500 LUX"
-                app:layout_constraintBottom_toBottomOf="@+id/view2"
+                app:layout_constraintBottom_toTopOf="@+id/BulbNumber6"
+                app:layout_constraintEnd_toEndOf="@+id/view7"
+                app:layout_constraintStart_toStartOf="@+id/view7"
+                app:layout_constraintTop_toTopOf="@+id/view7"
+                app:lottie_fileName="bulb.json"
+                app:lottie_progress="0.1" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/bulb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/BulbNumber5"
                 app:layout_constraintEnd_toEndOf="@+id/view2"
-                app:layout_constraintStart_toStartOf="@+id/view2" />
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="@+id/view2"
+                app:layout_constraintTop_toTopOf="@+id/view2"
+                app:layout_constraintVertical_bias="0.5"
+                app:lottie_fileName="bulb.json"
+                app:lottie_progress="0.1" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/bulb7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/BulbNumber7"
+                app:layout_constraintEnd_toEndOf="@+id/view8"
+                app:layout_constraintStart_toStartOf="@+id/view8"
+                app:layout_constraintTop_toTopOf="@+id/view8"
+                app:lottie_fileName="bulb.json"
+                app:lottie_progress="0.1" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/bulb8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/BulbNumber8"
+                app:layout_constraintEnd_toEndOf="@+id/view9"
+                app:layout_constraintStart_toStartOf="@+id/view9"
+                app:layout_constraintTop_toTopOf="@+id/view9"
+                app:lottie_fileName="bulb.json"
+                app:lottie_progress="0.1" />
+
+            <Switch
+                android:id="@+id/BulbNumber4"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:checked="false"
+                android:switchMinWidth="80dp"
+                android:thumbTint="@color/white"
+                android:track="@drawable/track_switch"
+                app:layout_constraintBottom_toBottomOf="@+id/view4"
+                app:layout_constraintEnd_toEndOf="@+id/view4"
+                app:layout_constraintHorizontal_bias="0.558"
+                app:layout_constraintStart_toStartOf="@+id/view4"
+                app:layout_constraintTop_toTopOf="@+id/view4"
+                app:layout_constraintVertical_bias="0.898"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
